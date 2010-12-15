@@ -31,12 +31,22 @@ function createFullTreeLinks() {
     var tHeight = 0;
     $('.inheritanceTree').toggle(function() {
         tHeight = $(this).parent().prev().height();
+<<<<<<< HEAD
         $(this).parent().toggleClass('showAll');
+=======
+        $(this).prev().prev().hide();
+        $(this).prev().show();
+>>>>>>> origin/master
         $(this).text("(hide)");
         $(this).parent().prev().height($(this).parent().height());
     },
     function() {
+<<<<<<< HEAD
         $(this).parent().toggleClass('showAll');
+=======
+        $(this).prev().prev().show();
+        $(this).prev().hide();
+>>>>>>> origin/master
         $(this).parent().prev().height(tHeight);
         $(this).text("show all")
     });
@@ -85,6 +95,7 @@ function framesInit() {
   if (window.top.frames.main) {
     document.body.className = 'frames';
     $('#menu .noframes a').attr('href', document.location);
+<<<<<<< HEAD
     $('html head title', window.parent.document).text($('html head title').text());
   }
 }
@@ -189,6 +200,11 @@ function generateTOC() {
   });
 }
 
+=======
+  }
+}
+
+>>>>>>> origin/master
 $(framesInit);
 $(createSourceLinks);
 $(createDefineLinks);
@@ -196,7 +212,10 @@ $(createFullTreeLinks);
 $(fixBoxInfoHeights);
 $(searchFrameLinks);
 $(linkSummaries);
+<<<<<<< HEAD
 $(keyboardShortcuts);
 $(summaryToggle);
 $(fixOutsideWorldLinks);
 $(generateTOC);
+=======
+>>>>>>> origin/master
