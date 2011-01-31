@@ -1,5 +1,4 @@
-
-= SixArm Ruby Gem: Colorful generates simple random color names and shade names
+= SixArm.com » Ruby » Colorful gem generates simple random color names and shade names
 
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
