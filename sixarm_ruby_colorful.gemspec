@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_colorful"
-  s.summary           = "SixArm Ruby Gem: color settings "
+  s.summary           = "SixArm.com » Ruby » color settings "
   s.version           = "1.0.8"
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"

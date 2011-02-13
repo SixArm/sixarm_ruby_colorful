@@ -31,22 +31,12 @@ function createFullTreeLinks() {
     var tHeight = 0;
     $('.inheritanceTree').toggle(function() {
         tHeight = $(this).parent().prev().height();
-<<<<<<< HEAD
         $(this).parent().toggleClass('showAll');
-=======
-        $(this).prev().prev().hide();
-        $(this).prev().show();
->>>>>>> origin/master
         $(this).text("(hide)");
         $(this).parent().prev().height($(this).parent().height());
     },
     function() {
-<<<<<<< HEAD
         $(this).parent().toggleClass('showAll');
-=======
-        $(this).prev().prev().show();
-        $(this).prev().hide();
->>>>>>> origin/master
         $(this).parent().prev().height(tHeight);
         $(this).text("show all")
     });
@@ -95,7 +85,6 @@ function framesInit() {
   if (window.top.frames.main) {
     document.body.className = 'frames';
     $('#menu .noframes a').attr('href', document.location);
-<<<<<<< HEAD
     $('html head title', window.parent.document).text($('html head title').text());
   }
 }
@@ -104,8 +93,9 @@ function keyboardShortcuts() {
   if (window.top.frames.main) return;
   $(document).keypress(function(evt) {
     if (evt.altKey || evt.ctrlKey || evt.metaKey || evt.shiftKey) return;
-    if (evt.originalTarget.nodeName == "INPUT" || 
-        evt.originalTarget.nodeName == "TEXTAREA") return;
+    if (typeof evt.orignalTarget !== "undefined" &&  
+        (evt.originalTarget.nodeName == "INPUT" || 
+        evt.originalTarget.nodeName == "TEXTAREA")) return;
     switch (evt.charCode) {
       case 67: case 99:  $('#class_list_link').click(); break;  // 'c'
       case 77: case 109: $('#method_list_link').click(); break; // 'm'
@@ -200,11 +190,6 @@ function generateTOC() {
   });
 }
 
-=======
-  }
-}
-
->>>>>>> origin/master
 $(framesInit);
 $(createSourceLinks);
 $(createDefineLinks);
@@ -212,10 +197,7 @@ $(createFullTreeLinks);
 $(fixBoxInfoHeights);
 $(searchFrameLinks);
 $(linkSummaries);
-<<<<<<< HEAD
 $(keyboardShortcuts);
 $(summaryToggle);
 $(fixOutsideWorldLinks);
 $(generateTOC);
-=======
->>>>>>> origin/master
