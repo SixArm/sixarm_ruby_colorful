@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm.com » Ruby » Colorful gem generates simple random color names and shade names
@@ -21,15 +22,15 @@ Examples:
   Colorful.shades.choice => Light
 
 Colors available:
-  Red, Orange, Yellow, Green, Blue, Indigo, Violet, 
-  Cyan, Magenta, Pink, Purple, Brown, 
-  Gold, Silver, Bronze, Copper, Platinum, 
-  Aquamarine, Azure, Beige, Cerulean, 
-  Chartreuse, Crimson, Fucshia, Khaki, 
-  Maroon, Mauve, Scarlet, Sepia, 
+  Red, Orange, Yellow, Green, Blue, Indigo, Violet,
+  Cyan, Magenta, Pink, Purple, Brown,
+  Gold, Silver, Bronze, Copper, Platinum,
+  Aquamarine, Azure, Beige, Cerulean,
+  Chartreuse, Crimson, Fucshia, Khaki,
+  Maroon, Mauve, Scarlet, Sepia,
   Sienna, Tan, Teal,  and Turquoise
 
-Shades: 
+Shades:
   Brilliant, Bright, Dark, Deep, Light, Moderate, Pale, Vivid
 
 =end
@@ -38,7 +39,7 @@ Shades:
 class Colorful
 
   # These color names are good examples because they are:
-  # - one word 
+  # - one word
   # - definitely a color (cf. "rose" is also a flower)
   # - not white or black
 
@@ -53,7 +54,7 @@ class Colorful
            ]
 
   # These shade names are good examples because they are:
-  # - one word 
+  # - one word
   # - independent of whatever color word is chosen
 
   SHADES = ['Brilliant', 'Bright', 'Dark', 'Deep', 'Light', 'Moderate', 'Pale', 'Vivid']
