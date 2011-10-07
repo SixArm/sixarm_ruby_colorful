@@ -1,38 +1,6 @@
 # -*- coding: utf-8 -*-
-
 =begin rdoc
-
-= SixArm.com » Ruby » Colorful gem generates simple random color names and shade names
-
-Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
-Copyright:: Copyright (c) 2006-2011 Joel Parker Henderson
-License:: See LICENSE.txt file
-
-Colorful generates simple random color names and color shade names.
-
-Based on the NBS/ISCC Color System, The Universal Language of Color.
-
-The typical usage is the method _choice_, which returns a string containing a random shade and color name.
-
-See http://www.anthus.com/Colors/NBS.html
-
-Examples:
-  Colorful.choice => Light Red
-  Colorful.colors.choice => Red
-  Colorful.shades.choice => Light
-
-Colors available:
-  Red, Orange, Yellow, Green, Blue, Indigo, Violet,
-  Cyan, Magenta, Pink, Purple, Brown,
-  Gold, Silver, Bronze, Copper, Platinum,
-  Aquamarine, Azure, Beige, Cerulean,
-  Chartreuse, Crimson, Fucshia, Khaki,
-  Maroon, Mauve, Scarlet, Sepia,
-  Sienna, Tan, Teal,  and Turquoise
-
-Shades:
-  Brilliant, Bright, Dark, Deep, Light, Moderate, Pale, Vivid
-
+Please see README.rdoc
 =end
 
 

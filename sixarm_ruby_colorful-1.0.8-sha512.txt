@@ -1,0 +1,1 @@
+ce3cfb3fcefe8baa82b9cfc98a3a59dea124b34c57ddbf8c4d83bca84d5a51bcd05e54f7a2fffe4400e818f614b2cab20ee6d6396d430292ee6f39b7832deba0  sixarm_ruby_colorful-1.0.8.gem
