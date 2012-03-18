@@ -4,19 +4,30 @@ require 'simplecov'
 SimpleCov.start
 require 'sixarm_ruby_colorful'
 
-class ColorfulTest < Test::Unit::TestCase
+describe Colorful do
 
-  def test_colors
-    assert(Colorful.colors.size>0,'Colorful.colors array')
+  describe ".colors" do
+
+    it "has items" do
+      assert(Colorful.colors.size > 0)
+    end
+
   end
 
-  def test_shades
-    assert(Colorful.shades.size>0,'Colorful.shades array')
+  describe ".shades" do
+
+    it "has items" do
+      assert(Colorful.shades.size > 0)
+    end
+
   end
 
-  def test_choice
-    s=Colorful.choice
-    assert(s=~/^\w+ \w+$/,"Colorful.choice is #{s}")
+  describe ".choice" do
+
+    it "=> a choice" do
+      Colorful.choice.must_match /^\w+ \w+$/
+    end
+
   end
 
 end
