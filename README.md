@@ -18,7 +18,7 @@ For docs go to <http://sixarm.com/sixarm_ruby_colorful/doc>
 Want to help? We're happy to get pull requests.
 
 
-## Quickstart
+## Install quickstart
 
 Install:
 
@@ -26,14 +26,14 @@ Install:
 
 Bundler:
 
-    gem "sixarm_ruby_colorful", "=1.1.0"
+    gem "sixarm_ruby_colorful", "~>1.1.0"
 
 Require:
 
     require "sixarm_ruby_colorful"
 
 
-## Install with high security (optional)
+## Install with security (optional)
 
 To enable high security for all our gems:
 
@@ -43,7 +43,7 @@ To enable high security for all our gems:
 
 To install with high security:
 
-    gem install sixarm_ruby_ --test --trust-policy HighSecurity
+    gem install sixarm_ruby_colorful --test --trust-policy HighSecurity
 
 
 ## Examples
