@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> Colorful gem generates simple random color names and shade names
 
-* Docs: <http://sixarm.com/sixarm_ruby_colorful/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_colorful/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_colorful>
 * Repo: <http://github.com/sixarm/sixarm_ruby_colorful>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
