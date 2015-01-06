@@ -64,11 +64,11 @@ Colors available:
   Cyan, Magenta, Pink, Purple, Brown,
   Gold, Silver, Bronze, Copper, Platinum,
   Aquamarine, Azure, Beige, Cerulean,
-  Chartreuse, Crimson, Fucshia, Khaki, 
-  Maroon, Mauve, Scarlet, Sepia, 
+  Chartreuse, Crimson, Fucshia, Khaki,
+  Maroon, Mauve, Scarlet, Sepia,
   Sienna, Tan, Teal,  and Turquoise
 
-Shades available: 
+Shades available:
   Brilliant, Bright, Dark, Deep, Light,
   Moderate, Pale, Vivid
 
@@ -92,17 +92,17 @@ You may choose any of these open source licenses:
   * Perl Artistic License
   * Ruby License
 
-The software is provided "as is", without warranty of any kind, 
-express or implied, including but not limited to the warranties of 
-merchantability, fitness for a particular purpose and noninfringement. 
+The software is provided "as is", without warranty of any kind,
+express or implied, including but not limited to the warranties of
+merchantability, fitness for a particular purpose and noninfringement.
 
-In no event shall the authors or copyright holders be liable for any 
-claim, damages or other liability, whether in an action of contract, 
-tort or otherwise, arising from, out of or in connection with the 
+In no event shall the authors or copyright holders be liable for any
+claim, damages or other liability, whether in an action of contract,
+tort or otherwise, arising from, out of or in connection with the
 software or the use or other dealings in the software.
 
 This license is for the included software that is created by SixArm;
-some of the included software may have its own licenses, copyrights, 
+some of the included software may have its own licenses, copyrights,
 authors, etc. and these do take precedence over the SixArm license.
 
-Copyright (c) 2005-2013 Joel Parker Henderson
+Copyright (c) 2005-2015 Joel Parker Henderson
