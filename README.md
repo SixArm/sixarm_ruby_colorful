@@ -1,4 +1,4 @@
-SixArm.com → Ruby → <br> Colorful gem generates simple random color names and shade names
+# SixArm.com → Ruby → <br> Colorful gem generates simple random color names and shade names
 
 <!--HEADER-OPEN-->
 
