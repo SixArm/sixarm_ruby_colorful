@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_colorful"
-  s.summary           = "SixArm.com » Ruby » color names"
+  s.summary           = "SixArm.com → Ruby → color names"
   s.description       = "Generate plausible color names, such as \"Bright Red\", \"Vivid Green\", \"Deep Blue\""
   s.version           = "1.1.1"
 
