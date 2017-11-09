@@ -1,6 +1,6 @@
 # SixArm.com → Ruby → <br> Colorful gem generates simple random color names and shade names
 
-<!--HEADER-OPEN-->
+<!--header-open-->
 
 [![Gem Version](https://badge.fury.io/rb/sixarm_ruby_colorful.svg)](http://badge.fury.io/rb/sixarm_ruby_colorful)
 [![Build Status](https://travis-ci.org/SixArm/sixarm_ruby_colorful.png)](https://travis-ci.org/SixArm/sixarm_ruby_colorful)
@@ -13,7 +13,7 @@
 * Contact: Joel Parker Henderson, <joel@sixarm.com>
 * Project: [Changes](CHANGES.md), [License](LICENSE.md), [Contributing](CONTRIBUTING.md).
 
-<!--HEADER-SHUT-->
+<!--header-shut-->
 
 
 ## Introduction
@@ -29,7 +29,7 @@ For docs go to <http://sixarm.com/sixarm_ruby_colorful/doc>
 Want to help? We're happy to get pull requests.
 
 
-<!--INSTALL-OPEN-->
+<!--install-opent-->
 
 ## Install
 
@@ -49,7 +49,7 @@ To require the gem in your code:
 
     require 'sixarm_ruby_colorful'
 
-<!--INSTALL-SHUT-->
+<!--install-shut-->
 
 
 ## Examples
