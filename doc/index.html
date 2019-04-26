@@ -6,7 +6,7 @@
 <title>
   File: README
   
-    &mdash; Documentation by YARD 0.9.14
+    &mdash; Documentation by YARD 0.9.19
   
 </title>
 
@@ -57,88 +57,75 @@
         <div class="clear"></div>
       </div>
 
-      <div id="content"><div id='filecontents'><h1>SixArm.com → Ruby → <br> Colorful gem generates simple random color names and shade names</h1>
-
+      <div id="content"><div id='filecontents'>
+<h1 id="label-SixArm.com+-E2-86-92+Ruby+-E2-86-92++Colorful+gem+generates+simple+random+color+names+and+shade+names">SixArm.com → Ruby → <br> Colorful gem generates simple random color names and shade names</h1>
 <!--header-open-->
-
-<p><a href="http://badge.fury.io/rb/sixarm_ruby_colorful"><img src="https://badge.fury.io/rb/sixarm_ruby_colorful.svg" alt="Gem Version"></a>
-<a href="https://travis-ci.org/SixArm/sixarm_ruby_colorful"><img src="https://travis-ci.org/SixArm/sixarm_ruby_colorful.png" alt="Build Status"></a>
-<a href="https://codeclimate.com/github/SixArm/sixarm_ruby_colorful/maintainability"><img src="https://api.codeclimate.com/v1/badges/8a2dea9873042128a3d0/maintainability" alt="Code Climate Maintainability"></a></p>
-
-<ul>
-<li>Git: <a href="https://github.com/sixarm/sixarm_ruby_colorful">https://github.com/sixarm/sixarm_ruby_colorful</a></li>
-<li>Doc: <a href="http://sixarm.com/sixarm_ruby_colorful/doc">http://sixarm.com/sixarm_ruby_colorful/doc</a></li>
-<li>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_colorful">https://rubygems.org/gems/sixarm_ruby_colorful</a></li>
-<li>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></li>
-<li>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</li>
-</ul>
-
+<p><a href="http://badge.fury.io/rb/sixarm_ruby_colorful"><img src="https://badge.fury.io/rb/sixarm_ruby_colorful.svg"></a> <a href="https://travis-ci.org/SixArm/sixarm_ruby_colorful"><img src="https://travis-ci.org/SixArm/sixarm_ruby_colorful.png"></a> <a href="https://codeclimate.com/github/SixArm/sixarm_ruby_colorful/maintainability"><img src="https://api.codeclimate.com/v1/badges/8a2dea9873042128a3d0/maintainability"></a></p>
+<ul><li>
+<p>Git: <a href="https://github.com/SixArm/sixarm_ruby_colorful">github.com/SixArm/sixarm_ruby_colorful</a></p>
+</li><li>
+<p>Doc: <a href="http://sixarm.com/sixarm_ruby_colorful/doc">sixarm.com/sixarm_ruby_colorful/doc</a></p>
+</li><li>
+<p>Gem: <a href="https://rubygems.org/gems/sixarm_ruby_colorful">rubygems.org/gems/sixarm_ruby_colorful</a></p>
+</li><li>
+<p>Contact: Joel Parker Henderson, <a href="mailto:joel@sixarm.com">joel@sixarm.com</a></p>
+</li><li>
+<p>Project: <a href="CHANGES.md">changes</a>, <a href="LICENSE.md">license</a>, <a href="CONTRIBUTING.md">contributing</a>.</p>
+</li></ul>
 <!--header-shut-->
-
-<h2>Introduction</h2>
+<h2 id="label-Introduction">Introduction</h2>
 
 <p>Color names and shades that generate simple random color names.</p>
 
 <p>Based on the NBS/ISCC Color System, The Universal Language of Color.</p>
 
-<p>See <a href="http://www.anthus.com/Colors/NBS.html">http://www.anthus.com/Colors/NBS.html</a></p>
+<p>See <a href="http://www.anthus.com/Colors/NBS.html">www.anthus.com/Colors/NBS.html</a></p>
 
-<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_colorful/doc">http://sixarm.com/sixarm_ruby_colorful/doc</a></p>
+<p>For docs go to <a href="http://sixarm.com/sixarm_ruby_colorful/doc">sixarm.com/sixarm_ruby_colorful/doc</a></p>
 
 <p>Want to help? We&#39;re happy to get pull requests.</p>
-
 <!--install-open-->
+<h2 id="label-Install">Install</h2>
 
-<h2>Install</h2>
+<h3 id="label-Gem">Gem</h3>
 
-<h3>Gem</h3>
-
-<p>Run this command in your shell or terminal:</p>
+<p>To install this gem in your shell or terminal:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='id identifier rubyid_install'>install</span> <span class='id identifier rubyid_sixarm_ruby_colorful'>sixarm_ruby_colorful</span>
 </code></pre>
 
-<p>Or add this to your Gemfile:</p>
+<h3 id="label-Gemfile">Gemfile</h3>
+
+<p>To add this gem to your Gemfile:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_gem'>gem</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_colorful</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
 
-<h3>Require</h3>
+<h3 id="label-Require">Require</h3>
 
 <p>To require the gem in your code:</p>
 
 <pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_require'>require</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sixarm_ruby_colorful</span><span class='tstring_end'>&#39;</span></span>
 </code></pre>
-
 <!--install-shut-->
-
-<h2>Examples</h2>
+<h2 id="label-Examples">Examples</h2>
 
 <pre class="code ruby"><code class="ruby">Colorful.choice =&gt; Light Red
 Colorful.colors.choice =&gt; Red
 Colorful.shades.choice =&gt; Light
 </code></pre>
 
-<h2>Colors and Shades</h2>
+<h2 id="label-Colors+and+Shades">Colors and Shades</h2>
 
-<p>Colors available:
-  Red, Orange, Yellow, Green, Blue, Indigo, Violet
-  Cyan, Magenta, Pink, Purple, Brown,
-  Gold, Silver, Bronze, Copper, Platinum,
-  Aquamarine, Azure, Beige, Cerulean,
-  Chartreuse, Crimson, Fucshia, Khaki,
-  Maroon, Mauve, Scarlet, Sepia,
-  Sienna, Tan, Teal,  and Turquoise</p>
+<p>Colors available:  Red, Orange, Yellow, Green, Blue, Indigo, Violet  Cyan, Magenta, Pink, Purple, Brown,  Gold, Silver, Bronze, Copper, Platinum,  Aquamarine, Azure, Beige, Cerulean,  Chartreuse, Crimson, Fucshia, Khaki,  Maroon, Mauve, Scarlet, Sepia,  Sienna, Tan, Teal, and Turquoise</p>
 
-<p>Shades available:
-  Brilliant, Bright, Dark, Deep, Light,
-  Moderate, Pale, Vivid</p>
+<p>Shades available:  Brilliant, Bright, Dark, Deep, Light,  Moderate, Pale, Vivid</p>
 </div></div>
 
       <div id="footer">
-  Generated on Thu Jun 21 22:32:11 2018 by
+  Generated on Thu Apr 25 22:29:44 2019 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
-  0.9.14 (ruby-2.5.1).
+  0.9.19 (ruby-2.6.3).
 </div>
 
     </div>
