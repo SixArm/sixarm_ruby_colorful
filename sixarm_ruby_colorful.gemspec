@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name           = "sixarm_ruby_colorful"
   s.summary        = "SixArm.com → Ruby → color names"
   s.description    = "Generate plausible color names, such as \"Bright Red\", \"Vivid Green\", \"Deep Blue\""
-  s.version        = "1.1.2"
+  s.version        = "3.0.0"
 
   s.author         = "SixArm"
   s.email          = "sixarm@sixarm.com"
@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   s.platform       = Gem::Platform::RUBY
   s.require_path   = "lib"
 
-
   s.files = [
     "Rakefile",
     "lib/sixarm_ruby_colorful.rb",
@@ -28,12 +27,16 @@ Gem::Specification.new do |s|
     "test/sixarm_ruby_colorful_test.rb",
   ]
 
-  s.add_development_dependency('minitest', '>= 5.7.0', '< 6')
-  s.add_development_dependency('sixarm_ruby_minitest_extensions', '>= 1.0.8', '< 2')
-  s.add_development_dependency('rake', '> 10.4.2', '< 11')
-  s.add_development_dependency('simplecov', '>= 0.10.0', '< 2')
-  s.add_development_dependency('coveralls', '>= 0.8.2', '< 2')
+  s.add_development_dependency("minitest", ">= 5.11.3", "< 6")
+  s.add_development_dependency("sixarm_ruby_minitest_extensions", ">= 1.0.8", "< 2")
+  s.add_development_dependency("rake", ">= 12.3.1", "< 13")
+  s.add_development_dependency("simplecov", ">= 0.16.1", "< 2")
+  s.add_development_dependency("flog", ">= 4.6.2", "< 5")
+  s.add_development_dependency("flay", ">= 2.12.0", "< 3")
+  s.add_development_dependency("reek", ">= 4.8.1", "< 5")
+  s.add_development_dependency('rubycritic', '>= 3.4.0', '< 4')
+  s.add_development_dependency('rubocop', '>= 0.57.2', '< 1')
 
-  s.required_ruby_version = ">= 2.2"
+  s.required_ruby_version = ">= 2.5"
 
 end
